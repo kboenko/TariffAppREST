@@ -7,10 +7,10 @@
 
 API:
 
-/tariffApp/users
-/tariffApp/users/{id}
-/tariffApp/tariffs
-/tariffApp/messages/{id}
+/tariffApp/users - получение данных по всем пользователям
+/tariffApp/users/{id} - получение данных по пользователю с данным id
+/tariffApp/tariffs - получение данных по тарифам
+/tariffApp/messages/{id} - получение сообщений пользователя с данным id
 
 Обновление тарифов происходит в фоновом режиме по cron-расписанию (задаётся в файле database.properties параметром cron.check.update).
 В данном случае задано выполнение  обновления ежедневно в 3.15.
